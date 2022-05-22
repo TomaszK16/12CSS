@@ -103,7 +103,87 @@ h1{
 }
 
 .ul11{
+	font-weight: bold;
+	font-variant: small-caps;
 	color: white;
-	list-style-type: lower-roman
+	list-style-type: upper-roman;
+}
+
+#div12{
+	background-color: lightblue;
+	padding: 15px;
+	width: 540px;
+	height: 260px;
+}
+
+#h312{
+	color: yellow;
+	font-family: Verdana;
+	font-size: 12pt;
+	line-height: 3;
+	text-align: center;
+	margin: 5px;
+	border: 8px red;
+	border-style:ridge;
+	cursor: ne-resize;
+}
+
+#div13{
+	background-color: yellow;
+	padding: 10px;
+	width: 540px;
+	height: 380	px;
+}
+
+#table13{
+	width: 450px;
+	height: 300px;
+	border-style: dashed;
+	border-color: red;
+	border-width: 0 10px 0 10px;
+	background-color: orange;
+}
+
+#tr13, #td13{
+	background-color: orange;
+	text-align: center;
+	color: white;
+	font-family: Calibri;
+	font-size: 20pt;
+	border: 1px solid;
+}
+
+#a131, #a131:hover{
+	color: green;
+	text-decoration: none;
+}
+
+#a131:hover{
+	font-weight: bold;
+}
+
+#div14{
+	background-color: lightblue;
+	background-image: url('human.png');
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 25px;
+	width: 540px;
+	height: 350px;
+	padding-top: 5%;
+}
+
+#div14inside{
+	background-color: blue;
+	opacity: 50%;
+	color:yellow;
+	font-family: "Comic Sans MS";
+	font-size: smaller;
+	text-indent: 28px;
+	word-spacing: 10px;
+	text-align: justify;
+	border: outset green 8px;
+	padding: 5px;
 }
 
